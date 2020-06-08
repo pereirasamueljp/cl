@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./costumer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog NodeJS</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand noselect" href="#home"><img class="img-fluid" src="./logo4.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul  id="menu" class=" navbar-nav nav nav-pills">
+            <li class="nav-item active">
+                <a class="nav-link pb-0" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#who">QUEM SOMOS</a>
+            </li>
+            <li class="nav-item dropdown ">
+                <a id="drop" class="nav-link " data-toggle="dropdown" href="#service" role="button" aria-haspopup="true" aria-expanded="false">SERVIÇOS</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#one">Serviço 1</a>
+                <a class="dropdown-item" href="#two">Serviço 2</a>
+                <a class="dropdown-item" href="#three">Serviço 3</a>
+                <a class="dropdown-item" href="#three">Serviço 4</a>
+                <a class="dropdown-item" href="#three">Serviço 5</a>
+                <a class="dropdown-item" href="#three">Serviço 6</a>
+                <a class="dropdown-item" href="#three">Serviço 7</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#share">QUEM INDICA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTATO</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <section id="home">
+            <div id="carousel-example-generic" class=" noselect carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./manutencao.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>A seu serviço</h5>
+                      <p>testando</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./servicos1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>A seu serviço2</h5>
+                      <p>testando</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./manutencao6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>A seu serviço3</h5>
+                      <p>testando</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./servicos1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>A seu serviço3</h5>
+                      <p>testando</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./servicos1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>A seu serviço3</h5>
+                      <p>testando</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul class="nav justify-content-around align-items-stretch">
+                <li class="services nav-item">
+                  <a id="navli" class="nav-link" href="#">
+                    <svg viewBox="0 0 64 64">
+                      <path d="m59 12h-1v-1a3.00328 3.00328 0 0 0 -3-3h-46a3.00328 3.00328 0 0 0 -3 3v1h-1a3.00328 3.00328 0 0 0 -3 3v26a3.00328 3.00328 0 0 0 3 3h54a3.00328 3.00328 0 0 0 3-3v-26a3.00328 3.00328 0 0 0 -3-3zm-51-1a1.00067 1.00067 0 0 1 1-1h46a1.00067 1.00067 0 0 1 1 1v22a1.00067 1.00067 0 0 1 -1 1h-46a1.00067 1.00067 0 0 1 -1-1zm0 31v-1a1.00067 1.00067 0 0 1 1-1h46a1.00067 1.00067 0 0 1 1 1v1zm52-1a1.00067 1.00067 0 0 1 -1 1h-1v-1a3.00328 3.00328 0 0 0 -3-3h-46a3.00328 3.00328 0 0 0 -3 3v1h-1a1.00067 1.00067 0 0 1 -1-1v-26a1.00067 1.00067 0 0 1 1-1h1v19a3.00328 3.00328 0 0 0 3 3h46a3.00328 3.00328 0 0 0 3-3v-19h1a1.00067 1.00067 0 0 1 1 1z"/><path d="m45 32h7a2.0026 2.0026 0 0 0 2-2v-2a2.0026 2.0026 0 0 0 -2-2h-7a2.0026 2.0026 0 0 0 -2 2v2a2.0026 2.0026 0 0 0 2 2zm0-4h7l.002 2h-7.002z"/><path d="m31 30h2v2h-2z"/><path d="m35 30h2v2h-2z"/><path d="m39 30h2v2h-2z"/><path d="m24.293 46.293a3.83173 3.83173 0 0 0 0 5.41406 1.83071 1.83071 0 0 1 0 2.58594l1.414 1.414a3.83173 3.83173 0 0 0 0-5.41406 1.83071 1.83071 0 0 1 0-2.58594z"/><path d="m31.293 46.293a3.83173 3.83173 0 0 0 0 5.41406 1.83071 1.83071 0 0 1 0 2.58594l1.414 1.414a3.83173 3.83173 0 0 0 0-5.41406 1.83071 1.83071 0 0 1 0-2.58594z"/><path d="m38.293 46.293a3.83173 3.83173 0 0 0 0 5.41406 1.83071 1.83071 0 0 1 0 2.58594l1.414 1.414a3.83173 3.83173 0 0 0 0-5.41406 1.83071 1.83071 0 0 1 0-2.58594z"/>
+                      <circle cx="12" cy="14" r="1"/>
+                      <circle cx="16" cy="14" r="1"/>
+                  </svg>                            
+                  <p>ar-condicionado</p>
+                  </a>
+                </li>
+                <li class="services nav-item">
+                  <a class="nav-link" href="#">
+                    <svg viewBox="-45 -40 550 550">
+                      <g>
+                        <g>
+                          <path d="M470.672,330.796c-5.912-4.984-13.664-7.064-21.304-5.752L290.72,352.636l-45.064-45.064
+                            c-1.496-1.504-3.536-2.344-5.656-2.344h-80c0-4.424-3.584-8-8-8h-32H8c-4.416,0-8,3.576-8,8v128c0,4.424,3.584,8,8,8h112h32
+                            c4.416,0,8-3.576,8-8h22.112l85.528,42.768c3.696,1.848,7.704,2.776,11.696,2.776c4.552,0,9.096-1.192,13.168-3.576l174.512-101.8
+                            c8-4.672,12.976-13.32,12.976-22.584C479.992,343.076,476.6,335.78,470.672,330.796z M112,425.228H16v-112h96V425.228z
+                             M144,425.228h-16v-112h16V425.228z M458.968,359.572l-174.52,101.8c-2.976,1.728-6.584,1.84-9.656,0.312l-87.216-43.608
+                            c-1.104-0.56-2.336-0.848-3.576-0.848h-24v-96h76.688l63.032,63.032c2.72,2.728,4.28,6.488,4.28,10.344
+                            c0,8.064-6.56,14.624-14.632,14.624c-3.904,0-7.584-1.52-10.344-4.28l-41.368-41.376l-11.312,11.312l41.376,41.376
+                            c5.784,5.784,13.472,8.968,21.648,8.968c16.896,0,30.632-13.744,30.632-30.624c0-8.184-3.184-15.872-8.976-21.656l-6.472-6.48
+                            l147.56-25.664c2.952-0.512,5.976,0.296,8.272,2.232c2.296,1.936,3.616,4.768,3.616,7.768
+                            C464,354.396,462.072,357.756,458.968,359.572z"/>
+                        </g>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="M448,241.228c-8.064,0-15.36,3.096-20.992,8.04l-49.576-42.496c9.016-9.944,14.568-23.088,14.568-37.544
+                            c0-16.872-7.536-32-19.384-42.272l45.688-52.216c6.264,4.072,13.688,6.488,21.696,6.488c22.056,0,40-17.944,40-40
+                            c0-22.056-17.944-40-40-40c-22.056,0-40,17.944-40,40c0,8.264,2.52,15.952,6.832,22.336L359,118.228c-7.024-3.184-14.8-5-23-5
+                            c-10.76,0-20.792,3.104-29.336,8.392L186.32,61.444c3.52-5.96,5.68-12.808,5.68-20.216c0-22.056-17.944-40-40-40
+                            c-22.056,0-40,17.944-40,40c0,22.056,17.944,40,40,40c8.632,0,16.584-2.816,23.136-7.488l118.328,59.168
+                            c-4.96,5.8-8.776,12.608-11.048,20.096l-187.096-7.48c-3.704-22.816-23.48-40.296-47.32-40.296c-26.472,0-48,21.528-48,48
+                            s21.528,48,48,48c23.632,0,43.288-17.184,47.232-39.704l184.784,7.392c0,0.104-0.016,0.208-0.016,0.312
+                            c0,7.92,1.672,15.448,4.648,22.28l-45.728,32.664c-7.336-9.04-18.4-14.944-30.92-14.944c-22.056,0-40,17.944-40,40
+                            c0,22.056,17.944,40,40,40c22.056,0,40-17.944,40-40c0-3.736-0.68-7.28-1.64-10.712l46.728-33.376
+                            c10.28,12.264,25.696,20.088,42.912,20.088c10.584,0,20.448-3,28.896-8.128l53.056,45.48c-1.184,3.352-1.952,6.896-1.952,10.648
+                            c0,17.648,14.352,32,32,32s32-14.352,32-32S465.648,241.228,448,241.228z M440,17.228c13.232,0,24,10.768,24,24s-10.768,24-24,24
+                            s-24-10.768-24-24S426.768,17.228,440,17.228z M152,65.228c-13.232,0-24-10.768-24-24s10.768-24,24-24s24,10.768,24,24
+                            S165.232,65.228,152,65.228z M48,185.228c-17.648,0-32-14.352-32-32s14.352-32,32-32s32,14.352,32,32S65.648,185.228,48,185.228z
+                             M208,273.228c-13.232,0-24-10.768-24-24s10.768-24,24-24s24,10.768,24,24S221.232,273.228,208,273.228z M336,209.228
+                            c-22.056,0-40-17.944-40-40c0-22.056,17.944-40,40-40c22.056,0,40,17.944,40,40C376,191.284,358.056,209.228,336,209.228z
+                             M448,289.228c-8.824,0-16-7.176-16-16c0-8.824,7.176-16,16-16c8.824,0,16,7.176,16,16C464,282.052,456.824,289.228,448,289.228z"
+                            />
+                        </g>
+                      </g>
+                      </svg>
+                    <p>PMOC</p>
+                  </a>
+                </li>
+                <li class="services nav-item">
+                  <a class="nav-link" href="#">
+                    <svg viewBox="-27 -30 580 580">
+                      <path d="m488.46875 224.453125h-88.695312v-81.195313h72.664062c12.972656 0 23.53125-10.554687 23.53125-23.53125v-96.195312c0-12.972656-10.558594-23.53125-23.53125-23.53125h-160.324219c-12.976562 0-23.53125 10.558594-23.53125 23.53125v40.597656h-49.128906v-24.566406c0-21.8125-17.75-39.5625-39.566406-39.5625h-160.324219c-21.8125 0-39.5625 17.75-39.5625 39.5625v448.90625c0 12.972656 10.558594 23.53125 23.53125 23.53125h192.386719c12.976562 0 23.53125-10.558594 23.53125-23.53125v-112.742188h33.097656v112.742188c0 12.976562 10.558594 23.53125 23.53125 23.53125h192.390625c12.972656 0 23.53125-10.558594 23.53125-23.53125v-240.484375c0-12.976563-10.558594-23.53125-23.53125-23.53125zm8.53125 23.53125v40.597656h-66.769531c1.035156-2.648437 1.609375-5.523437 1.609375-8.53125 0-12.976562-10.558594-23.535156-23.53125-23.535156-12.976563 0-23.535156 10.558594-23.535156 23.535156 0 3.007813.574218 5.882813 1.609374 8.53125h-18.671874v-24.566406c0-4.140625-3.359376-7.5-7.5-7.5h-48.097657c-4.140625 0-7.5 3.359375-7.5 7.5v24.566406h-17.0625v-40.597656c0-4.707031 3.828125-8.53125 8.53125-8.53125h192.386719c4.703125 0 8.53125 3.824219 8.53125 8.53125zm-97.226562 32.0625c0-4.703125 3.828124-8.53125 8.53125-8.53125 4.707031 0 8.535156 3.828125 8.535156 8.53125 0 4.707031-3.828125 8.53125-8.535156 8.53125-4.703126 0-8.53125-3.824219-8.53125-8.53125zm-80.160157 8.535156v-17.066406h33.097657v17.066406zm152.824219-160.324219h-24.566406v-65.160156h33.097656v56.628906c0 4.703126-3.828125 8.53125-8.53125 8.53125zm8.53125-104.726562v24.566406h-33.097656v-33.097656h24.5625c4.707031 0 8.535156 3.828125 8.535156 8.53125zm-177.386719 0c0-4.703125 3.828125-8.53125 8.53125-8.53125h120.757813v113.257812h-120.757813c-4.707031 0-8.53125-3.828124-8.53125-8.53125zm-288.582031 312.113281h16.546875c.285156 0 .515625.230469.515625.515625v56.113282c0 .285156-.230469.515624-.515625.515624h-16.546875zm0-136.273437h16.546875c.285156 0 .515625.230468.515625.515625v56.113281c0 .285156-.230469.515625-.515625.515625h-16.546875zm209.453125 289.097656c0 4.703125-3.828125 8.53125-8.53125 8.53125h-192.390625c-4.703125 0-8.53125-3.828125-8.53125-8.53125v-80.679688h16.546875c8.558594 0 15.515625-6.957031 15.515625-15.515624v-56.113282c0-8.554687-6.957031-15.515625-15.515625-15.515625h-16.546875v-17.0625h168.855469c4.140625 0 7.5-3.359375 7.5-7.5s-3.359375-7.5-7.5-7.5h-168.855469v-17.0625h16.546875c8.558594 0 15.515625-6.960937 15.515625-15.515625v-56.113281c0-8.558594-6.957031-15.519531-15.515625-15.519531h-16.546875v-144.808594c0-13.542969 11.019531-24.5625 24.5625-24.5625h160.324219c13.546875 0 24.5625 11.019531 24.5625 24.5625v249.015625h-8.527344c-4.140625 0-7.5 3.359375-7.5 7.5 0 4.144531 3.359375 7.5 7.5 7.5h8.527344v184.890625zm15-127.742188v-281.597656h49.128906v40.597656c0 12.976563 10.554688 23.53125 23.53125 23.53125h72.660157v81.195313h-88.691407c-12.976562 0-23.53125 10.554687-23.53125 23.53125v112.742187zm249.015625 136.273438h-192.386719c-4.707031 0-8.53125-3.828125-8.53125-8.53125v-184.886719h209.449219v184.886719c0 4.703125-3.828125 8.53125-8.53125 8.53125zm0 0"/><path d="m135.757812 64.128906h-32.066406c-8.554687 0-15.515625 6.960938-15.515625 15.515625v16.03125c0 8.558594 6.960938 15.515625 15.515625 15.515625h32.066406c8.554688 0 15.515626-6.957031 15.515626-15.515625v-16.03125c0-8.554687-6.960938-15.515625-15.515626-15.515625zm.515626 31.546875c0 .285157-.230469.515625-.515626.515625h-32.066406c-.285156 0-.515625-.230468-.515625-.515625v-16.03125c0-.285156.230469-.515625.515625-.515625h32.066406c.285157 0 .515626.230469.515626.515625zm0 0"/><path d="m448.386719 271.515625h24.046875c4.144531 0 7.5-3.359375 7.5-7.5s-3.355469-7.5-7.5-7.5h-24.046875c-4.140625 0-7.5 3.359375-7.5 7.5s3.359375 7.5 7.5 7.5zm0 0"/><path d="m392.273438 328.660156c-39.496094 0-71.628907 32.132813-71.628907 71.628906 0 39.496094 32.132813 71.628907 71.628907 71.628907 39.496093 0 71.628906-32.132813 71.628906-71.628907 0-39.496093-32.132813-71.628906-71.628906-71.628906zm0 128.257813c-31.226563 0-56.628907-25.402344-56.628907-56.628907 0-31.226562 25.40625-56.628906 56.628907-56.628906 31.226562 0 56.628906 25.40625 56.628906 56.628906 0 31.226563-25.402344 56.628907-56.628906 56.628907zm0 0"/><path d="m421.453125 385c-4.011719 1.035156-6.425781 5.121094-5.390625 9.132812.515625 2 .777344 4.070313.777344 6.15625 0 13.546876-11.019532 24.566407-24.566406 24.566407-13.542969 0-24.5625-11.019531-24.5625-24.566407 0-13.542968 11.019531-24.5625 24.5625-24.5625 2.085937 0 4.15625.257813 6.148437.773438 4.011719 1.03125 8.101563-1.382812 9.132813-5.394531 1.035156-4.007813-1.378907-8.097657-5.390626-9.132813-3.214843-.828125-6.542968-1.246094-9.890624-1.246094-21.816407 0-39.5625 17.746094-39.5625 39.5625 0 21.816407 17.746093 39.566407 39.5625 39.566407 21.816406 0 39.566406-17.75 39.566406-39.566407 0-3.347656-.421875-6.679687-1.25-9.898437-1.035156-4.011719-5.128906-6.421875-9.136719-5.390625zm0 0"/><path d="m328.144531 111.191406h80.164063c4.140625 0 7.5-3.355468 7.5-7.5v-64.128906c0-4.140625-3.359375-7.5-7.5-7.5h-16.03125c-4.140625 0-7.5 3.359375-7.5 7.5 0 4.144531 3.359375 7.5 7.5 7.5h8.53125v49.128906h-65.164063v-49.128906h24.566407c4.140624 0 7.5-3.355469 7.5-7.5 0-4.140625-3.359376-7.5-7.5-7.5h-32.066407c-4.140625 0-7.5 3.359375-7.5 7.5v64.128906c0 4.144532 3.359375 7.5 7.5 7.5zm0 0"/>
+                    </svg>
+                    <p>Linha Branca</p>
+                  </a>
+                </li>
+                <li class="services nav-item">
+                    <a class="nav-link" href="#">
+                      <svg viewBox="-40 -50 550 550">
+                        <g>
+                          <g>
+                            <path d="M415.928,88c0.019-2.111-0.798-4.144-2.272-5.656l-80-80c-1.505-1.484-3.543-2.302-5.656-2.272V0H88
+                              C74.745,0,64,10.745,64,24v432c0,13.255,10.745,24,24,24h304c13.255,0,24-10.745,24-24V88H415.928z M336,27.312L388.688,80H344
+                              c-4.418,0-8-3.582-8-8V27.312z M400,456c0,4.418-3.582,8-8,8H88c-4.418,0-8-3.582-8-8V24c0-4.418,3.582-8,8-8h232v56
+                              c0,13.255,10.745,24,24,24h56V456z"/>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M144,216c-13.255,0-24,10.745-24,24s10.745,24,24,24s24-10.745,24-24S157.255,216,144,216z M144,248c-4.418,0-8-3.582-8-8
+                              s3.582-8,8-8s8,3.582,8,8S148.418,248,144,248z"/>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <rect x="200" y="232" width="160" height="16"/>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M144,136c-13.255,0-24,10.745-24,24s10.745,24,24,24s24-10.745,24-24S157.255,136,144,136z M144,168c-4.418,0-8-3.582-8-8
+                              s3.582-8,8-8s8,3.582,8,8S148.418,168,144,168z"/>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <rect x="200" y="152" width="160" height="16"/>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M144,296c-13.255,0-24,10.745-24,24s10.745,24,24,24s24-10.745,24-24S157.255,296,144,296z M144,328c-4.418,0-8-3.582-8-8
+                              s3.582-8,8-8s8,3.582,8,8S148.418,328,144,328z"/>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <rect x="200" y="312" width="160" height="16"/>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <path d="M144,376c-13.255,0-24,10.745-24,24s10.745,24,24,24s24-10.745,24-24S157.255,376,144,376z M144,408c-4.418,0-8-3.582-8-8
+                              s3.582-8,8-8s8,3.582,8,8S148.418,408,144,408z"/>
+                          </g>
+                        </g>
+                        <g>
+                          <g>
+                            <rect x="200" y="392" width="160" height="16"/>
+                          </g>
+                        </g>
+                        </svg>
+                      <p>Projetos</p>
+                    </a>
+                  </li>
+                  <li class="services nav-item">
+                    <a class="nav-link active" href="#">
+                        <svg viewBox="-90 -70 620 620">
+                          <g>
+                            <g>
+                              <path d="M400.388,175.787c-1.707-3.413-4.267-5.12-7.68-5.12H292.015L391.855,12.8c1.707-2.56,1.707-5.973,0-8.533
+                                S387.588,0,384.175,0H247.642c-3.413,0-5.973,1.707-7.68,4.267l-128,256c-1.707,2.56-1.707,5.973,0,8.533
+                                c1.707,2.56,5.12,4.267,7.68,4.267h87.893l-95.573,227.84c-1.707,3.413,0,7.68,3.413,10.24c0.853,0.853,2.56,0.853,4.267,0.853
+                                c2.56,0,5.12-0.853,6.827-2.56l273.067-324.267C401.242,182.613,402.095,179.2,400.388,175.787z M149.508,454.827l78.507-187.733
+                                c0.853-2.56,0.853-5.12-0.853-7.68c-1.707-1.707-4.267-3.413-6.827-3.413h-87.04L252.762,17.067h116.053L268.122,174.933
+                                c-1.707,2.56-1.707,5.973,0,8.533s4.267,4.267,7.68,4.267h98.987L149.508,454.827z"/>
+                            </g>
+                          </g>
+                        </svg>                 
+                      <p>Eletrica</p>
+                    </a>
+                  </li>
+              </ul>
+        </section>
+        <section id="who">
+          <div class="whocont container-fluid">
+            <h1>Quem Somos?</h1>
+            <h2>Missão</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla eius sit sint voluptate voluptates assumenda, corrupti odit iste earum. Suscipit deleniti ratione nobis odit quibusdam fugiat assumenda, labore dolores error?</p>
+            <h2>Visão</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio facere totam error nostrum? Tempore consequatur eaque quam? Veniam similique maiores quidem molestias, odit neque voluptatum veritatis laboriosam reprehenderit ipsa!</p>
+          </div>
+
+         
+        </section>
+        <section id="share">Quem Indica
+        </section>
+        <section id="contact">Contato
+        <div class="auxview">
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="textfooter card-header bg-primary">CONTATO
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Nome" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Informe seu e-mail" required>
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Assunto" required>
+                              </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" rows="6" placeholder="Mensagem" required></textarea>
+                                </div>
+                                <div class="mx-auto">
+                                <button type="submit" class="send btn btn-primary text-right">Enviar</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 mt-4">
+                    <div class="card bg-light mb-3">
+                        <div class="textfooter card-header bg-success text-uppercase">Informações para contato</div>
+                        <div class="card-body">
+                          <div id = "map">
+                            <img class = "information noselect" src="./location.png" alt="Location Icon">
+                            <a class="contact" href="https://g.page/CLservicesBH?share">
+                              R. Armando Greco, 333
+                              Frei Leopoldo
+                              Belo Horizonte - MG
+                              31746-055
+                            </a>
+                        </div>
+                            <div id = "email">
+                              <img class = "information noselect" src="./email.png" alt="Email Icon">
+                              <a class="contact" href="mailto:contato@clservices.com.br">contato@clservices.com.br</a>
+                            </div>
+                            <div id = "map">
+                              <div id = "phone"> 
+                                <img class = "information noselect" src="./telephone.png" alt="Telephone Icon">
+                                <a class="contact" href="tel:319554-3311">(31) 99554-3311</a>
+                            </div>
+                           
+        
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <aside class = "noselect" id = "aside">
+          <a href="https://api.whatsapp.com/send?phone=553195543311&text=Gostaria de ter mais informações de seus serviços" target="_blank">
+              <img src="./whatsapp.png" alt="Social Media WhatsApp">
+          </a>
+        </aside>
+        <div class="auxview2">
+        </div>
+        <footer>
+          <div class="footercredits footer-copyright text-center py-3">© 2020 Criado e Desenvolvido por
+            <a href="https://www.linkedin.com/in/pereirasamueljp">Samuel Pereira</a>
+          </div>
+        </footer>
+        
+</body>
+
+<script src="./jquery.js" ></script>
+<script type= "text/html" src="./popper.min.js"></script>
+<script src="./bootstrap.min.js"></script>
+<script src="./costumer.js"></script>
+</html>
