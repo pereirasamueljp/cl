@@ -216,6 +216,7 @@ section{
     position: absolute;
     top: 35em;
     right: 1em;
+	z-index: 2500;
 }
 #aside img{
     width: 4em;
