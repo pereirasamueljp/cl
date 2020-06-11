@@ -213,8 +213,7 @@ section{
 
 
 #aside{
-    grid-area: aside;
-    position: fixed;
+    position: absolute;
     top: 35em;
     right: 1em;
 }
