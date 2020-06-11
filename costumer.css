@@ -213,7 +213,7 @@ section{
 
 
 #aside{
-    position: absolute;
+    position: fixed;
     top: 35em;
     right: 1em;
 	z-index: 2500;
